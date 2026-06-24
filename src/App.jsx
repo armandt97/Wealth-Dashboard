@@ -323,12 +323,7 @@ export default function App(){
               <div style={{fontSize:10,letterSpacing:"0.2em",color:T.muted,textTransform:"uppercase",marginBottom:3}}>Total Wealth</div>
               <div style={{fontSize:34,fontWeight:800,letterSpacing:"-0.02em",color:T.accent}}>{fmt(grand)}</div>
             </div>
-            <div style={{textAlign:"right",paddingTop:4}}>
-              <div style={{fontSize:10,color:T.muted,marginBottom:5}}>22 June 2026</div>
-              <div style={{fontSize:12,fontWeight:700,color:ch7>=0?T.gain:T.loss,background:ch7>=0?"rgba(149,213,178,0.1)":"rgba(248,113,113,0.1)",padding:"4px 10px",borderRadius:20}}>
-                {ch7>=0?"▲":"▼"} {fmt(Math.abs(ch7))} 7d
-              </div>
-            </div>
+
           </div>
 
           <div style={{display:"flex",gap:8,margin:"12px 0 16px"}}>
